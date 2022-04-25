@@ -10,9 +10,9 @@ let code = []
 
 function takeCode(){
   buttons.forEach(button=>{
-    button.addEventListener('click',()=>{
-      if(button.dataset.value < 10){ 
-        code.push(button.dataset.value)
+    button.addEventListener('click',({target:{dataset:{value}}})=>{
+      if(value < 10){ 
+        code.push(value)
       }else{
         return
       }
