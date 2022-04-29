@@ -32,3 +32,5 @@ Wskazówki:
 * Do wyświetlacza odwołasz się poprzez klasę `display`
 * Do przycisków odwołasz się poprzez klasę `keyboard__button`
 * Wartość przycisku pobierz z atrybutu `data-value` - na podstawie wartości powinieneś zdecydować czy pracujesz z przyciskiem numerycznym, czy przyciskiem funkcyjnym
+
+Live https://stackblitz.com/edit/tajny-kod-zdccdd?file=index.js
