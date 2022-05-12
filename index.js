@@ -11,6 +11,7 @@ let code = []
 function takeCode(){
   buttons.forEach(button=>{
     button.addEventListener('click',({target:{dataset:{value}}})=>{
+      display.textContent +="*"
       if(value < 10){ 
         code.push(value)
       }else{
